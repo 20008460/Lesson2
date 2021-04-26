@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="sg.edu.rp.c346.id20008460.lesson2">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Lesson2">
+        <activity android:name=".exercise4a"></activity>
+        <activity android:name=".exercise3b" />
+        <activity android:name=".exercise3a" />
+        <activity android:name=".exercise2d" />
+        <activity android:name=".exercise2c" />
+        <activity android:name=".exercise_2b" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
